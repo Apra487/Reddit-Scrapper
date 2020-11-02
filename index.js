@@ -1,13 +1,13 @@
 const puppeteer = require('puppeteer');
 const Sheet = require('./sheet');
-// * Testing my first vscode story.
+
 (async function () {
     if(process.argv.length !== 3){
         console.log('Please provide an url for scraping as command line argument!');
         return 1;
     }
     let url = process.argv[2];
-    const browser = await puppeteer.launch({defaultViewport: null, headless: false});
+    const browser = await puppeteer.launch({defaultViewport: null, headless: true});
     const page = await browser.newPage()
     await page.goto(url,{ waitUntil: 'networkidle0' ,timeout: 90000});
 
