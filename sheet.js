@@ -3,7 +3,6 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 module.exports = class Sheet {
     constructor() {
         this.doc = new GoogleSpreadsheet('<Goggle sheet ID>'); // ! Plase provide google sheet id
-
     }
     async load() {
         // * load directly from json file if not in secure environment
