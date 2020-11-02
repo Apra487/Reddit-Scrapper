@@ -1,16 +1,23 @@
 {
-  "name": "reddit",
+  "name": "reddit-scrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "A universal Reddit scraper that can scrape Subreddits, Redditors, and comments from submissions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apra487/Reddit-Scrapper.git"
+  },
+  "author": "Apratim Mahata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Apra487/Reddit-Scrapper/issues"
+  },
+  "homepage": "https://github.com/Apra487/Reddit-Scrapper#readme",
   "dependencies": {
     "google-spreadsheet": "^3.0.13",
-    "puppeteer": "^5.3.1"
+    "puppeteer": "^5.4.1"
   }
 }
