@@ -28,7 +28,7 @@ cd Reddit-Scrapper
 https://docs.google.com/spreadsheets/d/<YOUR SHEET ID>/edit#gid=0
 ```
 
--   Paste the copied sheet id inplace of `<Goggle sheet ID>` in line no 5 sheet.js
+-   Paste the copied sheet id inplace of `<Goggle sheet ID>` in line no 5 on sheet.js
 
 ```bash
 this.doc = new GoogleSpreadsheet('<Goggle sheet ID>');
