@@ -2,7 +2,7 @@ const { GoogleSpreadsheet } = require('google-spreadsheet');
 
 module.exports = class Sheet {
     constructor() {
-        this.doc = new GoogleSpreadsheet('<Goggle sheet ID>'); // ! Plase provide google sheet id
+        this.doc = new GoogleSpreadsheet('1Z6eoKfuNTU4IitmYKVeKU6rxJmAQMfz90d5CU83H0mI');
 
     }
     async load() {
