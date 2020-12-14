@@ -1,6 +1,6 @@
 # Reddit Scraper
 
-This is a Reddit scraper that can scrape any Subreddit.
+This is a bot that can scrape any Subreddit.
 
 Written in JavaScript using puppeteer.
 
